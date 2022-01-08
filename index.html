@@ -4,69 +4,139 @@
 <head>
     <title>Animaux en détresse</title>
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/asso-dog.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animaux en détresse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Évènements</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Recherche</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="border">
+        <div>
+            <h1>ANIMAUX EN DETRESSE</h1>
 
-    <div>
-        <h1>ANIMAUX EN DETRESSE</h1>
-
-        <h2>Chaque années</h2>
-
-        <p>Pour la plupart d’entre nous, la saison estivale est le moment de penser à la plage, la mer ou les
-            vacances.<br />
-            Mais il y a d’autres sujets considérés malheureusement comme superflus pendant ce temps : abandonner ses
-            <br />
-            animaux domestiques en vacances . Tous les ans, on découvre environ <strong>60 000 chiens</strong> et chats
-            qui sont perdus<br />
-            ou délaissés par leur propriétaire aux extrémités des refuges ou depuis les endroits de passage. Pour
-            mettre<br />
-            fin à cette circonstance,<strong>la FAAA ou la Fondation Assistance Aux Animaux </strong> met en place un
-            refuge dédié aux <br />
-            animaux délaissés ou maltraités.
-        </p>
-
+            <h2>Chaque années</h2>
+            <div class="row">
+                <div class="col-9">
+                    <p>Pour la plupart d’entre nous, la saison estivale est le moment de penser à la plage, la mer ou
+                        les
+                        vacances.
+                        Mais il y a d’autres sujets considérés malheureusement comme superflus pendant ce temps :
+                        abandonner ses
+                        animaux domestiques en vacances . Tous les ans, on découvre environ <strong>60 000
+                            chiens</strong> et
+                        chats
+                        qui sont perdus
+                        ou délaissés par leur propriétaire aux extrémités des refuges ou depuis les endroits de passage.
+                        Pour
+                        mettre
+                        fin à cette circonstance,<strong>la FAAA ou la Fondation Assistance Aux Animaux </strong> met en
+                        place
+                        un
+                        refuge dédié aux
+                        animaux délaissés ou maltraités.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <video src="videos/Chien1.mp4" width="280" height="180" id="video-bg-elem" preload="auto" autoplay
+                        loop muted="muted" controls></video>
+                </div>
+            </div>
+        </div>
         <h1>L'adoption</h1>
+        <hr />
         <h2>Une seconde chance</h2>
-        <p>L’adoption d’un animal est un comportement généreux et bien pensé afin de cesser l’abandon des animaux.<br />
-            Ces derniers ne doivent pas être victimes de la faim, des individus malveillants ou des accidents de
-            la<br />
-            route. C’est pourquoi il y a des associations pour la protection des animaux comme <strong>la Fondation
-                assistance<br />
-                aux animaux</strong> qui luttent tous les ans contre les abandons. La sensibilisation a été donc mise en
-            place afin<br />
-            de faire comprendre à tous les maîtres que délaisser son animal est un acte inhumain, d’autant plus que
-            <br />
-            celui-ci est vulnérable et généralement très affectueux à son propriétaire.
-        </p>
+        <div class="row">
+            <div class="col-9">
+                <p>L’adoption d’un animal est un comportement généreux et bien pensé afin de cesser l’abandon des
+                    animaux.
+                    Ces derniers ne doivent pas être victimes de la faim, des individus malveillants ou des accidents de
+                    la
+                    route. C’est pourquoi il y a des associations pour la protection des animaux comme <strong>la
+                        Fondation
+                        assistance
+                        aux animaux</strong> qui luttent tous les ans contre les abandons. La sensibilisation a été donc
+                    mise en
+                    place afin
+                    de faire comprendre à tous les maîtres que délaisser son animal est un acte inhumain, d’autant plus
+                    que
 
-        <h1>Les refuges</h1>
-        <h2>260 associations se sont rassemblées au sein de la Confédération</h2>
-        <p>La Confédération est un organisme fédérateur, qui réunit des associations indépendantes réparties sur<br />
-            toute la France et les départements d’outre-mer partageant des valeurs communes pour la protection des
-            animaux,<br />
-            sous le titre « Défense de l’animal ». Elle a été fondée le 16 mars 1928 et est reconnue d’utilité
-            publique.<br />
-            La confédération est le plus important réseau français de protection des animaux, présent dans <strong>95
-                départements</strong><br />
-            et qui agit sur le terrain : <strong>Refuges de proximité et fourrières, maisons de retraite pour animaux
-                âgés, refuge pour<br />
-                animaux de ferme, chevaux…Gestion des chats libres</strong>(stérilisation, identification et suivi des
-            populations)….<br />
-            Réparties sur toute la France, elles rassemblent <strong>462.000 adhérents</strong> au service de la défense
-            de l’animal et prennent<br />
-            en charge <strong>80%des animaux en détresse.</strong><br />
+                    celui-ci est vulnérable et généralement très affectueux à son propriétaire.
+                </p>
+            </div>
+            <div class="col-3">
 
-        </p>
+                <img src="images/images.jpg" width="360" />
+            </div>
 
-        <ul>C'est également:
 
-            <li>Plus de 180 000 animaux accueillis chaque année</li>
-            <li>24 000 places d’accueil pour chiens, chats et autres animaux en détresse</li>
-            <li>13 500 enquêtes de maltraitance</li>
-            <li>3 000 bénévoles réellement actifs</li>
-            <li>1 200 personnes salariées pour les soins au quotidien</li>
-        </ul>
+            <h1>Les refuges</h1>
+            <hr />
+            <h2>260 associations se sont rassemblées au sein de la Confédération</h2>
+            <div class="row">
+                <div class="col-9">
+                    <p>La Confédération est un organisme fédérateur, qui réunit des associations indépendantes réparties
+                        sur
+                        toute la France et les départements d’outre-mer partageant des valeurs communes pour la
+                        protection des
+                        animaux,
+                        sous le titre « Défense de l’animal ». Elle a été fondée le 16 mars 1928 et est reconnue
+                        d’utilité
+                        publique.
+                        La confédération est le plus important réseau français de protection des animaux, présent
+                        dans
+                        <strong>95
+                            départements</strong>
+                        et qui agit sur le terrain : <strong>Refuges de proximité et fourrières, maisons de retraite
+                            pour
+                            animaux
+                            âgés, refuge pour
+                            animaux de ferme, chevaux…Gestion des chats libres</strong>(stérilisation, identification
+                        et suivi
+                        des
+                        populations)….
+                        Réparties sur toute la France, elles rassemblent <strong>462.000 adhérents</strong> au service
+                        de la
+                        défense
+                        de l’animal et prennent
+                        en charge <strong>80%des animaux en détresse.</strong>
 
-    </div>
+                    <ul>C'est également:
+
+                        <li>Plus de 180 000 animaux accueillis chaque année</li>
+                        <li>24 000 places d’accueil pour chiens, chats et autres animaux en détresse</li>
+                        <li>13 500 enquêtes de maltraitance</li>
+                        <li>3 000 bénévoles réellement actifs</li>
+                        <li>1 200 personnes salariées pour les soins au quotidien</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col-3">
+
+                    <img src="images/imges.jpg" width="360" />
+                </div>
+            </div>
 </body>
